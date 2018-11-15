@@ -1,0 +1,6 @@
+<?php
+    return [
+        'client_secret' => 'Alderan',
+        'client_id' => 'R2D2',
+        'api_domain' => '​https://death.star.api'
+    ];

@@ -1,0 +1,35 @@
+{
+  "name": "philipbrown/thisisbud",
+
+  "type": "application",
+
+  "description": "Api development exercise",
+
+  "license": "MIT",
+
+  "require": {
+    "php": "7.2.*",
+    "league/oauth2-client": "^2.3",
+    "php-di/php-di": "^6.0"
+  },
+
+  "require-dev": {
+    "phpspec/phpspec": "^5.0",
+    "phpunit/phpunit": "^7.3"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "PhilipBrown\\ThisIsBud\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "PhilipBrown\\ThisIsBud\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd" : "php ./bin/install.php"
+  }
+}
